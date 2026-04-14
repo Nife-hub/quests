@@ -2,7 +2,7 @@ package main
 
 import (
 
-	"fmt"
+	// "fmt"
 	// "github.com/01-edu/z01"
 )
 
@@ -112,7 +112,12 @@ func main() {
 	// fmt.Println(RecursivePower(4, 3))
 
 	// SQRT
-	fmt.Println(Sqrt(4))
-	fmt.Println(Sqrt(3))
+	// fmt.Println(Sqrt(4))
+	// fmt.Println(Sqrt(3))
+
+	// ALPHACOUNT
+	// s := "Hello 78 World!    4455 /"
+	// nb := AlphaCount(s)
+	// fmt.Println(nb)
 
 }
