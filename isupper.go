@@ -1,0 +1,10 @@
+package main
+
+func IsUpper(s string) bool {
+	for _, ch := range s {
+		if !(ch >= 'A' && ch <= 'Z') {
+			return false
+		}
+	}
+	return true
+}

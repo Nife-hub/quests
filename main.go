@@ -2,7 +2,7 @@ package main
 
 import (
 
-	// "fmt"
+	"fmt"
 	// "github.com/01-edu/z01"
 )
 
@@ -115,7 +115,6 @@ func main() {
 	// fmt.Println(Sqrt(4))
 	// fmt.Println(Sqrt(3))
 
-<<<<<<< HEAD
 	// ATOIBASE
 	// fmt.Println(AtoiBase("125", "0123456789"))
 	// fmt.Println(AtoiBase("1111101", "01"))
@@ -126,11 +125,85 @@ func main() {
 	// BASICJOIN
 	// elems := []string{"Hello!", " How", " are", " you?"}
 	// fmt.Println(BasicJoin(elems))
-=======
-	// ALPHACOUNT
-	// s := "Hello 78 World!    4455 /"
-	// nb := AlphaCount(s)
-	// fmt.Println(nb)
->>>>>>> 241735a38ad510a87447f4027d71770c3a56992d
+
+	// CAPITALIZED
+	// fmt.Println(Capitalize("Hello! How are you? How+are+things+4you?"))
+
+	// COMPARE
+	// fmt.Println(Compare("Hello!", "Hello!"))
+	// fmt.Println(Compare("Salut!", "lut!"))
+	// fmt.Println(Compare("Ola!", "Ol"))
+
+	// CONCAT
+	// fmt.Println(Concat("Hello!", " How are you?"))
+
+	// 
+	// FIRSTRUNE
+	// z01.PrintRune(FirstRune("Hello!"))
+	// z01.PrintRune(FirstRune("Salut!"))
+	// z01.PrintRune(FirstRune("Ola!"))
+	// z01.PrintRune('\n')
+
+	// INDEX
+	// fmt.Println(Index("Hello!", "l"))
+	// fmt.Println(Index("Salut!", "alu"))
+	// fmt.Println(Index("Ola!", "hOl"))
+
+	// ISALPHA
+	// fmt.Println(IsAlpha("Hello! How are you?"))
+	// fmt.Println(IsAlpha("HelloHowareyou"))
+	// fmt.Println(IsAlpha("What's this 4?"))
+	// fmt.Println(IsAlpha("Whatsthis4"))
+
+	// ISLOWER
+	// fmt.Println(IsLower("hello"))
+	// fmt.Println(IsLower("hello!"))
+
+	// ISNUMERIC
+	// fmt.Println(IsNumeric("010203"))
+	// fmt.Println(IsNumeric("01,02,03"))
+
+	// ISPRINTABLE
+	// fmt.Println(IsPrintable("Hello"))
+	// fmt.Println(IsPrintable("Hello\n"))
+
+	// ISUPPER
+	// fmt.Println(IsUpper("HELLO"))
+	// fmt.Println(IsUpper("HELLO!"))
+
+	// JOIN
+	// toConcat := []string{"Hello!", " How", " are", " you?"}
+	// fmt.Println(Join(toConcat, ":"))
+
+	// LASTRUNE
+	// z01.PrintRune(LastRune("Hello!"))
+	// z01.PrintRune(LastRune("Salut!"))
+	// z01.PrintRune(LastRune("Ola!"))
+	// z01.PrintRune('\n')
+
+	// NRUNE
+	// z01.PrintRune(NRune("Hello!", 3))
+	// z01.PrintRune(NRune("Salut!", 2))
+	// z01.PrintRune(NRune("Bye!", -1))
+	// z01.PrintRune(NRune("Bye!", 5))
+	// z01.PrintRune(NRune("Ola!", 4))
+	// z01.PrintRune('\n')
+
+	// TOLOWER
+	// fmt.Println(ToLower("Hello! How are you?"))
+
+	// TOUPPER
+	// fmt.Println(ToUpper("Hello! How are you?"))
+
+	// TRIMATOI
+	fmt.Println(TrimAtoi("12345"))
+	fmt.Println(TrimAtoi("str123ing45"))
+	fmt.Println(TrimAtoi("012 345"))
+	fmt.Println(TrimAtoi("Hello World!"))
+	fmt.Println(TrimAtoi("sd+x1fa2W3s4"))
+	fmt.Println(TrimAtoi("sd-x1fa2W3s4"))
+	fmt.Println(TrimAtoi("sdx1-fa2W3s4"))
+	fmt.Println(TrimAtoi("sdx1+fa2W3s4"))
+
 
 }
