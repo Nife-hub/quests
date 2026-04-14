@@ -112,7 +112,18 @@ func main() {
 	// fmt.Println(RecursivePower(4, 3))
 
 	// SQRT
-	fmt.Println(Sqrt(4))
-	fmt.Println(Sqrt(3))
+	// fmt.Println(Sqrt(4))
+	// fmt.Println(Sqrt(3))
+
+	// ATOIBASE
+	// fmt.Println(AtoiBase("125", "0123456789"))
+	// fmt.Println(AtoiBase("1111101", "01"))
+	// fmt.Println(AtoiBase("7D", "0123456789ABCDEF"))
+	// fmt.Println(AtoiBase("uoi", "choumi"))
+	// fmt.Println(AtoiBase("bbbbbab", "-ab"))
+
+	// BASICJOIN
+	// elems := []string{"Hello!", " How", " are", " you?"}
+	// fmt.Println(BasicJoin(elems))
 
 }
