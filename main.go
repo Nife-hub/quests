@@ -2,7 +2,7 @@ package main
 
 import (
 
-	"fmt"
+	// "fmt"
 	// "github.com/01-edu/z01"
 )
 
@@ -115,6 +115,7 @@ func main() {
 	// fmt.Println(Sqrt(4))
 	// fmt.Println(Sqrt(3))
 
+<<<<<<< HEAD
 	// ATOIBASE
 	// fmt.Println(AtoiBase("125", "0123456789"))
 	// fmt.Println(AtoiBase("1111101", "01"))
@@ -125,5 +126,11 @@ func main() {
 	// BASICJOIN
 	// elems := []string{"Hello!", " How", " are", " you?"}
 	// fmt.Println(BasicJoin(elems))
+=======
+	// ALPHACOUNT
+	// s := "Hello 78 World!    4455 /"
+	// nb := AlphaCount(s)
+	// fmt.Println(nb)
+>>>>>>> 241735a38ad510a87447f4027d71770c3a56992d
 
 }
