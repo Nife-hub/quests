@@ -78,10 +78,41 @@ func main() {
 	// fmt.Println(BasicAtoi2("Hello World!"))
 
 	// ATOI
-	fmt.Println(Atoi("+1234"))
-	fmt.Println(Atoi("-1234"))
-	fmt.Println(Atoi("12+34"))
-	fmt.Println(Atoi("12-34"))
-	fmt.Println(Atoi("++1234"))
-	fmt.Println(Atoi("--1234"))
+	// fmt.Println(Atoi("+1234"))
+	// fmt.Println(Atoi("-1234"))
+	// fmt.Println(Atoi("12+34"))
+	// fmt.Println(Atoi("12-34"))
+	// fmt.Println(Atoi("++1234"))
+	// fmt.Println(Atoi("--1234"))
+
+	// FIBONACCI
+	// arg1 := 4
+	// fmt.Println(Fibonacci(arg1))
+
+	// FINDNEXTPRIME
+	// fmt.Println(FindNextPrime(5))
+	// fmt.Println(FindNextPrime(4))
+
+	// ISPRIME
+	// fmt.Println(IsPrime(5))
+	// fmt.Println(IsPrime(4))
+
+	// ITERATIVEFACTORIAL
+	// arg := 4
+	// fmt.Println(IterativeFactorial(arg))
+
+	// ITERATIVEPOWER
+	// fmt.Println(IterativePower(4, 3))
+
+	// RECURSIVEFACTORIAL
+	// arg := 4
+	// fmt.Println(RecursiveFactorial(arg))
+
+	// RECURSIVEPOWER
+	// fmt.Println(RecursivePower(4, 3))
+
+	// SQRT
+	fmt.Println(Sqrt(4))
+	fmt.Println(Sqrt(3))
+
 }

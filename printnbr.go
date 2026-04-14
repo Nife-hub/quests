@@ -7,8 +7,12 @@ func PrintNbr(n int) {
 		z01.PrintRune('-')
 	}
 
-	if n/10 != 0 {
-		z01.PrintRune(n / 10)
+	printDigits(n)
+}
+
+func printDigits(n int) {
+	if n <= -10 || n >= 10 {
+		printDigits(n / 10)
 	}
 
 	digit := n % 10
