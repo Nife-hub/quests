@@ -42,3 +42,7 @@ func printBoard(board *[8]int) {
 	}
 	z01.PrintRune('\n')
 }
+
+func main2() {
+	EightQueens()
+}
