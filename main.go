@@ -86,7 +86,7 @@ func main() {
 	// fmt.Println(Atoi("--1234"))
 
 	// FIBONACCI
-	// arg1 := 4
+	// arg1 := 7
 	// fmt.Println(Fibonacci(arg1))
 
 	// FINDNEXTPRIME
@@ -98,7 +98,7 @@ func main() {
 	// fmt.Println(IsPrime(4))
 
 	// ITERATIVEFACTORIAL
-	// arg := 4
+	// arg := 0
 	// fmt.Println(IterativeFactorial(arg))
 
 	// ITERATIVEPOWER
@@ -196,14 +196,14 @@ func main() {
 	// fmt.Println(ToUpper("Hello! How are you?"))
 
 	// TRIMATOI
-	fmt.Println(TrimAtoi("12345"))
-	fmt.Println(TrimAtoi("str123ing45"))
-	fmt.Println(TrimAtoi("012 345"))
-	fmt.Println(TrimAtoi("Hello World!"))
-	fmt.Println(TrimAtoi("sd+x1fa2W3s4"))
-	fmt.Println(TrimAtoi("sd-x1fa2W3s4"))
-	fmt.Println(TrimAtoi("sdx1-fa2W3s4"))
-	fmt.Println(TrimAtoi("sdx1+fa2W3s4"))
+	// fmt.Println(TrimAtoi("12345"))
+	// fmt.Println(TrimAtoi("str123ing45"))
+	// fmt.Println(TrimAtoi("012 345"))
+	// fmt.Println(TrimAtoi("Hello World!"))
+	// fmt.Println(TrimAtoi("sd+x1fa2W3s4"))
+	// fmt.Println(TrimAtoi("sd-x1fa2W3s4"))
+	// fmt.Println(TrimAtoi("sdx1-fa2W3s4"))
+	// fmt.Println(TrimAtoi("sdx1+fa2W3s4"))
 
 
 }
