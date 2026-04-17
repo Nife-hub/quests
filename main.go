@@ -206,4 +206,31 @@ func main() {
 	// fmt.Println(TrimAtoi("sdx1+fa2W3s4"))
 
 
+	// APPENDRANGE
+	// fmt.Println(AppendRange(5, 10))
+	// fmt.Println(AppendRange(10, 5))
+
+	// MAKERANGE
+	// fmt.Println(MakeRange(5, 10))
+	// fmt.Println(MakeRange(10, 5))
+
+	// CONCATPARAMS
+	// test := []string{"Hello", "how", "are", "you?"}
+	// fmt.Println(ConcatParams(test))
+
+	// SPLITWHITESPACES
+	// fmt.Printf("%#v\n", SplitWhiteSpaces("Hello how are you?"))
+
+	// PRINTWORDSTABLES
+	// a := SplitWhiteSpaces("Hello how are you?")         (cannot run)
+	// PrintWordsTables(a)
+
+	// SPLIT
+	// s := "HelloHAhowHAareHAyou?"
+	// fmt.Printf("%#v\n", Split(s, "HA"))
+
+	// CONVERTBASE
+	// result := ConvertBase("101011", "01", "0123456789")
+	// fmt.Println(result)
+
 }
